@@ -23,7 +23,9 @@ lista = []
 for numero in range(tamanho_lista):
     num = int(input("Insira um número: "))
     lista.append(num)
+    
+print("Lista: ", lista)    
 
 lista_ordenada = bubble_sort(lista)
 
-print("Lista ordenada: ", lista_ordenada)            
+print("Lista ordenada: ", lista_ordenada)           
