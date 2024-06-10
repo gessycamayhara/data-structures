@@ -10,9 +10,7 @@ def bubble_sort(lista):
     
             if lista[posicao] > lista[posicao + 1]:
  
-                troca = lista[posicao]
-                lista[posicao] = lista[posicao + 1]
-                lista[posicao + 1] = troca
+                lista[posicao], lista[posicao + 1] = lista[posicao + 1], lista[posicao]
                 
     return lista
         
